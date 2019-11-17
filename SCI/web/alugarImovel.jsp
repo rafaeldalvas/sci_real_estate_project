@@ -70,8 +70,9 @@
                     <input type="text" class="form-control" name="txtValorCalcao" value="${aluguel.valorCalcao}" <c:if test="${operacao == 'Excluir'}"> readonly</c:if>> 
                 </div>
             </div>
-            <div class="row col-md-2">
-                <input class="btn btn-primary" type="submit" value="Concluir" name="enviar">
+            <div class="row col-md-6">
+                <a href="PesquisaAlugadosController" class="btn btn-dark">Voltar</a>
+                <input class="btn btn-primary" type="submit" style="margin-left: 293px;" value="Concluir" name="enviar">
             </div>
         </form>
     </div>

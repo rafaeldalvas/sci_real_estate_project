@@ -40,11 +40,12 @@
                                 </tr>
                             </c:forEach>
                         </table>
-                        <div class="col-sm-4">
+                        
                             <form action="ManterAlugadosController?acao=prepararOperacao&operacao=Incluir" method="post">
-                                    <input  type="submit" name="btnIncluir" value="Incluir"class="btn btn-info add-new ">
+                                    <a href="index.jsp" class="btn btn-dark">Voltar</a>
+                                    <input  type="submit" name="btnIncluir" style="margin-left: 383px;" value="Incluir"class="btn btn-info add-new">
                             </form>
-                        </div>
+                            
                     </div>
                 </div>
             </div>
