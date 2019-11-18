@@ -15,7 +15,7 @@
         <title>Alugar imóvel</title>
     </head>
     <body>
-        <h1 style="text-align: center;margin-top: 22px;margin-bottom: 7.5rem;"">Alugar imóvel</h1>
+        <h1 style="text-align: center;margin-top: 22px;margin-bottom: 7.5rem;">Alugar imóvel</h1>
         <div class="container">
         <form method="post" action="ManterAlugadosController?acao=confirmarOperacao&operacao=${operacao}">
             <div class="form-group row">
